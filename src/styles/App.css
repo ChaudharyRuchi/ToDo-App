@@ -1,0 +1,76 @@
+h1 {
+    color: #e77122;
+    text-align: center;
+    }
+    
+
+button{
+    color: #394f56;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.list{
+    border: 2px solid rgb(187, 181, 181);
+    padding: 5px;
+    border-radius: 4px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 23px;
+}
+
+#task{
+    width: 40%;
+}
+
+#btn{
+    margin-left: 10px;
+}
+
+.buttons-wrapper{
+    position: absolute;
+    right: 5px;
+}
+
+.editTask {
+    margin-right: 5px;
+    background-color: #37ef40;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.del-btn{
+    background-color: #f31010;
+    padding: 3px;
+    font-weight: 600;
+    color: white;
+}
+
+.list-task{
+    display: inline-block;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.saveTask {
+    margin-left: 10px;
+    background-color: #37ef40;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.edit-input-field{
+    width: 78%;
+}
+
+.saveTask.disabled{
+    opacity: .5;
+}
